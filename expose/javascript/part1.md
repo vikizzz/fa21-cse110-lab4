@@ -8,8 +8,8 @@
 5. The code returns a type error.
    >TypeError: Assignment to constant variable.
 
-    This is because `const` keyword prevents being reassigned after it is intially assigned. Line 7 attemps to reassign the `const` keyword `result`, thus cause an error.
+    This is because `const` keyword prevents being reassigned after it is intially assigned. Line 7 attempts to reassign the `const` keyword `result`, thus causes an error.
 6. The code returns a type error.
    >TypeError: Assignment to constant variable.
 
-    This is because `const` keyword prevents being reassigned after it is intially assigned. Line 7 attemps to reassign the `const` keyword `result`, thus cause an error.
+    This is because `const` keyword prevents being reassigned after it is intially assigned. Line 7 attempts to reassign the `const` keyword `result`, thus causes an error.
