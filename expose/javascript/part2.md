@@ -46,10 +46,10 @@
     E. false. When comparing values of different types, JavaScript converts the value to numbers. Due to the numeric conversion rules, `true` becomes 1 and 1 is not equal to 2
     F. true. `Boolean(2)` is true and boolean data type, thus they are euqal.
 
-15 -  `==` is non-strict equality check. If two values are equal regardless of the type of the value, output true. On the other hand, `===` is strict equality check. Even the value we see are the same, as long as they are different data type, `===` will mark them as false.
-
-17 - The function will return a list [2, 4, 6].
+15. `==` is non-strict equality check. If two values are equal regardless of the type of the value, output true. On the other hand, `===` is strict equality check. Even the value we see are the same, as long as they are different data type, `===` will mark them as false.
+16. [link](part2-question16.js)
+17. The function will return a list [2, 4, 6].
     `doSomething()` will return a number that is twice the parameter
     `modifyArray([1,2,3], doSomething)` will loop through the list [1,2,3]. In each iteration, it will call `doSomething` to double the current number of list and then push the new number into a list called `newArr`. After looping, the function returns `newArr`.
-
-19 - 1<br>4<br>3<br>2
+18. [link](part2-question18.js)
+19. 1<br>4<br>3<br>2
