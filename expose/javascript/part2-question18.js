@@ -4,5 +4,5 @@ function printTime() {
     console.log(time);
 }
 
-clearInterval();
-setInterval(printTime(), 1000);
+clearTimeout();
+setTimeout(printTime, 1000);
