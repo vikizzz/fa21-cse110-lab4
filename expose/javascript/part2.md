@@ -38,15 +38,16 @@
     E. Output: 4. Due to the numeric conversion rules, `true` becomes 1, so `3 + null` becomes `3 + 1`
     F. 0. When addition `+` is applied to non-numbers, numeric conversion happens automatically. Due to the numeric conversion rules, `null` becomes 0 and `false` becomes 0, so `false + null` becomes `0 + 0`
     G. 3undefined. Because the first variable is string data type, any variable after the "+" operator will be concatenated to data
-    H. NaN. The output is undefinded as a number since the 
+    H. NaN. Since it is `-`, both value should convert to number data type, however, 3 cannot subtract undefined valule, thus the output is NaN.
 14. A. true. When comparing values of different types, JavaScript converts the value to numbers. Since the number 2 is larger than 1 thus we get true
     B. false. This is dictionary comparison, first char of 2 is greater than first char of 12 which is '1'.
     C. true. When comparing values of different types, JavaScript converts the value to numbers. String 2 will convert to number 2 thus they are equal.
     D. false. Since `===` is strict euqality check, the values are different because each of them is a different type.
     E. false. When comparing values of different types, JavaScript converts the value to numbers. Due to the numeric conversion rules, `true` becomes 1 and 1 is not equal to 2
     F. true. `Boolean(2)` is true and boolean data type, thus they are euqal.
-15. `==` is non-strict equality check. If two values are equal regardless of the type of the value, output true. On the other hand, `===` is strict equality check. Even the value we see are the same, as long as they are different data type, `===` will mark them as false.
-17. The function will return a list [2, 4, 6].
+
+15 -  `==` is non-strict equality check. If two values are equal regardless of the type of the value, output true. On the other hand, `===` is strict equality check. Even the value we see are the same, as long as they are different data type, `===` will mark them as false.
+17 - The function will return a list [2, 4, 6].
     `doSomething()` will return a number that is twice the parameter
     `modifyArray([1,2,3], doSomething)` will loop through the list [1,2,3]. In each iteration, it will call `doSomething` to double the current number of list and then push the new number into a list called `newArr`. After looping, the function returns `newArr`.
-19. 1<br>4<br>3<br>2
+19 - 1<br>4<br>3<br>2
