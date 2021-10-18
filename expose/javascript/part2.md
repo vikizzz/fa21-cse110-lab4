@@ -1,5 +1,5 @@
 1. Line 12 will print 3. 
-   Line 12 prints `i` that we define `i` as variable and variable is function scope that it can be accessed anywhere inside the function it is defined in regardless of the block. In this function call ```discountPrices([100, 200, 300], 0.5)'```, since the `prices` list length is three and `i` keeps track of the times of looping, the for loop inside the function will loop 3 times so `i` will be 3 when the for loop ends.
+   Line 12 prints `i` that we define `i` as variable and variable is function scope that it can be accessed anywhere inside the function it is defined in regardless of the block. In this function call ```discountPrices([100, 200, 300], 0.5)```, since the `prices` list length is three and `i` keeps track of the times of looping, the for loop inside the function will loop 3 times so `i` will be 3 when the for loop ends.
 2. Line 13 will print 150. 
    Line 13 prints `disountedPrice` that is a variable that called everytime inside of the for loop. In this function call, `discounedPrice` at the end will be the discounted pice of the last element in the `prices` list. So when line 13 wants to print `discountedPrice`, we get 150 in the output.
 3. Line 14 prints 150. 
@@ -31,4 +31,22 @@
     C. student.greeting(); <br>
     D. student['Favorite Teacher'].name <br>
     E. student.courseLoad[0]
-13. A. 
+13. A. 32. Because the first variable is string data type, any variable after the "+" operator will be concatenated to data
+    B. 1. When subtraction `-` is applied to non-numbers, numeric conversion happens automatically and string `3` are converted to number.
+    C. 3. When addition `+` is applied to non-numbers, numeric conversion happens automatically. Due to the numeric conversion rules, `null` becomes 0, so `3 + null` becomes `3 + 0`
+    D. 3null. Because the first variable is string data type, any variable after the "+" operator will be concatenated to data
+    E. Output: 4. Due to the numeric conversion rules, `true` becomes 1, so `3 + null` becomes `3 + 1`
+    F. 0. When addition `+` is applied to non-numbers, numeric conversion happens automatically. Due to the numeric conversion rules, `null` becomes 0 and `false` becomes 0, so `false + null` becomes `0 + 0`
+    G. 3undefined. Because the first variable is string data type, any variable after the "+" operator will be concatenated to data
+    H. NaN. The output is undefinded as a number since the 
+14. A. true. When comparing values of different types, JavaScript converts the value to numbers. Since the number 2 is larger than 1 thus we get true
+    B. false. This is dictionary comparison, first char of 2 is greater than first char of 12 which is '1'.
+    C. true. When comparing values of different types, JavaScript converts the value to numbers. String 2 will convert to number 2 thus they are equal.
+    D. false. Since `===` is strict euqality check, the values are different because each of them is a different type.
+    E. false. When comparing values of different types, JavaScript converts the value to numbers. Due to the numeric conversion rules, `true` becomes 1 and 1 is not equal to 2
+    F. true. `Boolean(2)` is true and boolean data type, thus they are euqal.
+15. `==` is non-strict equality check. If two values are equal regardless of the type of the value, output true. On the other hand, `===` is strict equality check. Even the value we see are the same, as long as they are different data type, `===` will mark them as false.
+17. The function will return a list [2, 4, 6].
+    `doSomething()` will return a number that is twice the parameter
+    `modifyArray([1,2,3], doSomething)` will loop through the list [1,2,3]. In each iteration, it will call `doSomething` to double the current number of list and then push the new number into a list called `newArr`. After looping, the function returns `newArr`.
+19. 1<br>4<br>3<br>2
